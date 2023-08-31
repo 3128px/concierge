@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   agent:
   - apiVersion: v2
-    appVersion: v0.0.1-nightly+2624d7f
-    created: "2023-08-31T05:31:51.734836279Z"
+    appVersion: v0.0.1-nightly+619d92a
+    created: "2023-08-31T05:37:58.210728368Z"
     description: A Helm cart for TIS Agent for Kubernetes.
-    digest: dfa1d6862940521540c874f704fa4a486f00e1f12f79cbbcb89ad0bb9d655bd6
+    digest: 8279c813460afc36c339649a8a982dd5fc8ab3ea907271dc2158d6f82eb6501f
     name: agent
     urls:
     - agent-v0.0.1-nightly.tgz
     version: v0.0.1-nightly
-generated: "2023-08-31T05:31:51.734437673Z"
+generated: "2023-08-31T05:37:58.210320665Z"
