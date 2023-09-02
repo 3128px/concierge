@@ -1,13 +1,15 @@
 apiVersion: v1
 entries:
   agent:
-  - apiVersion: v2
-    appVersion: v0.0.1-nightly+c781322
-    created: "2023-09-02T09:39:51.267382127Z"
-    description: A Helm cart for TIS Agent for Kubernetes.
-    digest: dfc02ce243d000c35014913c39ac7cf6f70cc0adfee0a1c5030cf224f0ab7fd2
+  - annotations:
+      tetrate.io/system: "true"
+    apiVersion: v2
+    appVersion: v0.0.1-nightly+340dc69
+    created: "2023-09-02T10:08:15.535757137Z"
+    description: Helm cart for deploying TIS agent.
+    digest: 32eb39b81b07ae81f64925bff6a2127a0564ad6853a1ca755f7d6aaca538aa7f
     name: agent
     urls:
     - agent-v0.0.1-nightly.tgz
     version: v0.0.1-nightly
-generated: "2023-09-02T09:39:51.267004525Z"
+generated: "2023-09-02T10:08:15.535394532Z"
